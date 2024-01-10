@@ -1,16 +1,49 @@
 * {
   box-sizing: border-box;
+  margin: 4px;
 }
 
 body {
   margin: 0;
   padding: 1rem;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  color: lime;
+
+  background: rgb(62,62,62);
+  background: linear-gradient(0deg, rgba(62,62,62,1) 19%, rgba(0,0,0,1) 100%);
 }
 
 h1 {
   font-weight: 800;
   font-size: 1.5rem;
+}
+
+input {
+  border: 2px solid lightgray;
+  background-color: gray;
+  color: white;
+  border: 2px solid black;
+
+  padding: 10px;
+  
+}
+
+button {
+  background-color: black;
+  color: lime;
+  box-shadow: 4px 4px 0px gray;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: gray;
+  color: yellow;
+  box-shadow: 2px 2px 0px lightgrey;
+}
+
+.comment {
+  background: black;
+  border: 1px solid lime;
+  padding: 4px;
 }
